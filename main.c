@@ -28,9 +28,6 @@ int main()
     enable_servos();
     set_servo_position(mini,mini_open);
     msleep(300);
-    enable_servos();
-    set_servo_position(mini,mini_close);
-    msleep(300);
     set_create_total_angle(0);
     create_drive_direct(50,50);
     msleep(1500);
