@@ -58,7 +58,7 @@ int main()
       printf("Angle Value: %d\n",get_create_total_angle());
     printf("Distance Value: %d\n",get_create_distance());
   
-
+//nothing
     return 0;   
 }
 
