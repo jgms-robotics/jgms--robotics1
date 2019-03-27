@@ -5,14 +5,14 @@ void left();
 void foward2();
 int claw =0;
 int arm=1;
-int mini=2;
+int water_claw=2;
 int open=1273;
 int close=1047;
 int up=0;
 int down=1991;
 int upp=801;
-int mini_close=659;
-int mini_open=1766;
+int water_close=659;
+int water_open=1766;
 int main()
 
 
@@ -26,7 +26,7 @@ int main()
     msleep(1500);
     //turn to grab bucket
     enable_servos();
-    set_servo_position(mini,mini_open);
+    set_servo_position(water_claw,water_open);
     msleep(300);
     set_create_total_angle(0);
     create_drive_direct(50,50);
